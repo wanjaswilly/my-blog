@@ -1,0 +1,142 @@
+/**
+    * created by : wanja wilson 
+    * Github     : https://github.com/wanjaswilly
+    * twitter    : @wanjaswilly
+    * Website    : https://wanjaswilly.com/blog-themes/minimalistic-lightweight
+    * Contact    : +254790052730 / +254741400006 
+    * 
+    * */
+
+nav {
+    width: 100%;
+}
+#header {
+    background-color: #f1f1f1;
+    padding: 20px 10px;
+    color: black;
+    text-align: center;
+    font-size: 50px;
+    font-weight: bold;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    transition: 0.2s;
+}
+#header a {
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+}
+#header a:hover {
+    text-align: center;
+    padding: 28px 32px;
+    text-decoration: none;
+    font-size: 50px;
+}
+#content-div {
+    margin-top: 100px;
+    margin-left: 10%;
+    margin-right: 10%;
+    padding: 15px 15px 50px;
+    font-size: 20px;
+    line-height: 1.7em;
+}
+#tagline {
+    font-size: 14px;
+}
+a:link,
+a:visited {
+    color: black;
+}
+.author-pic {
+    float: left;
+    width: 30%;
+}
+.author-info {
+    float: left;
+    width: 70%;
+}
+
+.other-articles {
+    float: left;
+    width: 45%;
+    padding: 0 10px;
+}
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.card {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    padding: 16px;
+    text-align: left;
+    background-color: #f1f1f1;
+}
+footer {
+    text-align: center;
+}
+@media screen and (max-width: 600px) {
+    #header {
+        background-color: #f1f1f1;
+        padding: 16px 8px;
+        color: black;
+        text-align: center;
+        font-size: 30px;
+        font-weight: bold;
+        position: fixed;
+        top: 0;
+        width: 100%;
+        transition: 0.2s;
+    }
+    #header a {
+        text-align: center;
+        padding: 10px 12px;
+        text-decoration: none;
+        font-size: 12px;
+    }
+    #header a:hover {
+        text-align: center;
+        padding: 18px 22px;
+        text-decoration: none;
+        font-size: 30px;
+    }
+    #content-div {
+        margin-top: 100px;
+        margin-left: 5%;
+        margin-right: 5%;
+        padding: 15px 15px 20px;
+        font-size: 20px;
+        line-height: 1.5em;
+    }
+    #tagline {
+        margin-left: 0px;
+        font-size: 14px;
+    }
+    .other-articles {
+        float: left;
+        width: 90%;
+        padding: 0 10px 30px 10px;
+    }
+}
+
+#drop_file_zone {
+    background-color: #eee;
+    border: #999 5px dashed;
+    width: 290px;
+    height: 200px;
+    padding: 8px;
+    font-size: 18px;
+}
+#drag_upload_file {
+    width: 50%;
+    margin: 0 auto;
+}
+#drag_upload_file p {
+    text-align: center;
+}
+#drag_upload_file #selectfile {
+    display: none;
+}
