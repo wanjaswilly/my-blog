@@ -15,9 +15,9 @@
     <body>
     <!-- header -->
     <nav id="header">
-      <a href="#home">wanjaswilly</a>
-      <a href="#xbox">Articles</a>
-      <a href="#cmos">Author</a>
+      <a href="{{ url('/') }}">wanjaswilly</a>
+      <a href="{{ url('/aticles') }}">Articles</a>
+      <a href="{{ url('/author') }}">Author</a>
     </nav>
     <!-- body of the page -->
     <div id="content-div">
